@@ -1,158 +1,102 @@
 <!DOCTYPE html>
-<html lang="zh-TW">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>青少年網路成癮</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>掌控你的時間，掌控你的生活</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
             background-color: #f4f4f9;
             color: #333;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
         }
         header {
-            background-color: #4CAF50;
+            background-color: #1E1E1E;
             color: white;
-            text-align: center;
-            padding: 20px 0;
-        }
-        nav {
-            background-color: #333;
-            overflow: hidden;
-        }
-        nav a {
-            float: left;
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 14px 20px;
-            text-decoration: none;
-        }
-        nav a:hover {
-            background-color: #ddd;
-            color: black;
-        }
-        section {
             padding: 20px;
+            text-align: center;
         }
-        .content-section {
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        .container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .content {
+            text-align: center;
+            margin: 40px 0;
+        }
+        .content h2 {
+            font-size: 2em;
+            color: #2c3e50;
+        }
+        .content p {
+            font-size: 1.1em;
             margin: 20px 0;
         }
+        .button {
+            display: inline-block;
+            background-color: #3498db;
+            color: white;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .button:hover {
+            background-color: #2980b9;
+        }
         footer {
-            background-color: #333;
+            background-color: #1E1E1E;
             color: white;
             text-align: center;
-            padding: 10px;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
+            padding: 20px;
+            font-size: 1em;
         }
     </style>
 </head>
 <body>
 
 <header>
-    <h1>青少年網路成癮</h1>
-    <p>了解、預防與幫助青少年應對網路成癮的挑戰</p>
+    <h1>掌控你的時間，掌控你的生活</h1>
 </header>
 
-<nav>
-    <a href="#home">首頁</a>
-    <a href="#what-is-addiction">什麼是網路成癮?</a>
-    <a href="#self-assessment">自我測評</a>
-    <a href="#impact">網路成癮的影響</a>
-    <a href="#prevention">預防與干預</a>
-    <a href="#expert-advice">專家與家長建議</a>
-    <a href="#resources">資源與工具</a>
-    <a href="#faq">常見問題</a>
-    <a href="#community">社區與互動</a>
-    <a href="#about">關於我們</a>
-    <a href="#contact">聯絡我們</a>
-</nav>
+<div class="container">
+    <div class="content">
+        <h2>上班族，為什麼你被網路拖住了？</h2>
+        <p>每天在忙碌的工作中，你是否發現自己不知不覺又陷入了無盡的社交媒體或網路遊戲中？每次開啟手機或電腦，只是想「休息一下」，結果卻丟失了整個下午，甚至一整天的生產力。</p>
+        <p><strong>是時候打破這個惡性循環了！</strong></p>
+    </div>
 
-<section id="home">
-    <h2>首頁</h2>
-    <p>青少年網路成癮的問題日益嚴重。此網站旨在提供資料、建議與支援，幫助青少年及家長了解並應對這一問題。</p>
-</section>
+    <div class="content">
+        <h2>成功的上班族，懂得掌控時間！</h2>
+        <p><strong>1. 不再無謂浪費時間：</strong> 每一分每一秒，都是我們的資本。學會從網路中脫身，重新掌控專注，讓工作更高效，生活更有質感。</p>
+        <p><strong>2. 讓心智清晰，減少焦慮：</strong> 不被無意識的網路拖累，能讓你擁有更清晰的思緒，面對挑戰時更加冷靜、理智。</p>
+        <p><strong>3. 身心更健康：</strong> 遠離長時間的手機與電腦屏幕，釋放壓力，重新找回真實生活中的樂趣與自我。</p>
+    </div>
 
-<section id="what-is-addiction" class="content-section">
-    <h2>什麼是網路成癮?</h2>
-    <p>網路成癮是指青少年對網路的過度依賴，導致生活中的其他方面受到影響。這種行為可能包括長時間上網、忽視學業與社交活動等。</p>
-</section>
+    <div class="content">
+        <h2>挑戰自己，重拾生活的主動權</h2>
+        <p>你可以不再被網路牽著走，掌握時間，專注工作，和家人朋友共享更多的美好時光。這不僅是關於工作，還關乎如何提升生活的質量。</p>
+    </div>
 
-<section id="self-assessment" class="content-section">
-    <h2>自我測評</h2>
-    <p>請填寫以下問卷，了解自己是否有網路成癮的風險：</p>
-    <form>
-        <label for="question1">每天上網超過6小時嗎?</label><br>
-        <input type="radio" name="q1" value="yes"> 是
-        <input type="radio" name="q1" value="no"> 否<br><br>
-
-        <label for="question2">網路使用影響了學業成績嗎?</label><br>
-        <input type="radio" name="q2" value="yes"> 是
-        <input type="radio" name="q2" value="no"> 否<br><br>
-
-        <label for="question3">是否有與家人或朋友溝通困難?</label><br>
-        <input type="radio" name="q3" value="yes"> 是
-        <input type="radio" name="q3" value="no"> 否<br><br>
-
-        <input type="submit" value="提交">
-    </form>
-</section>
-
-<section id="impact" class="content-section">
-    <h2>網路成癮的影響</h2>
-    <p>網路成癮對青少年身心健康、學業、社交等方面有重大影響。長時間上網會導致焦慮、抑鬱，甚至學業成績下降。</p>
-</section>
-
-<section id="prevention" class="content-section">
-    <h2>預防與干預</h2>
-    <p>家長和學校應該共同合作，及早識別網路成癮的徵兆，並幫助青少年建立健康的網路使用習慣。</p>
-</section>
-
-<section id="expert-advice" class="content-section">
-    <h2>專家與家長建議</h2>
-    <p>專家建議青少年家長設立適當的網路使用規範，與孩子進行開放式對話，並尋求專業幫助。</p>
-</section>
-
-<section id="resources" class="content-section">
-    <h2>資源與工具</h2>
-    <p>這裡有一些有用的工具和資源，幫助你管理網路使用，並提供專業諮詢服務。</p>
-</section>
-
-<section id="faq" class="content-section">
-    <h2>常見問題</h2>
-    <p>如何知道我的孩子是否有網路成癮的問題？我們如何幫助他們減少網路使用時間？</p>
-</section>
-
-<section id="community" class="content-section">
-    <h2>社區與互動</h2>
-    <p>加入我們的支持社群，與其他家長和青少年互相交流，分享經驗。</p>
-</section>
-
-<section id="about" class="content-section">
-    <h2>關於我們</h2>
-    <p>我們是一群專業心理學家與教育者，致力於幫助青少年遠離網路成癮，促進他們的健康成長。</p>
-</section>
-
-<section id="contact" class="content-section">
-    <h2>聯絡我們</h2>
-    <p>如有任何問題，請填寫聯絡表單與我們取得聯繫。</p>
-    <form>
-        <label for="name">姓名:</label><br>
-        <input type="text" id="name" name="name"><br><br>
-        <label for="email">電子郵件:</label><br>
-        <input type="email" id="email" name="email"><br><br>
-        <label for="message">留言:</label><br>
-        <textarea id="message" name="message"></textarea><br><br>
-        <input type="submit" value="提交">
-    </form>
-</section>
+    <div class="content">
+        <h2>想要更高效的工作、更快樂的生活嗎？</h2>
+        <p><strong>從今天起，重新定義你的網路使用方式！</strong></p>
+        <a href="#" class="button">掌控你的時間，立即開始</a>
+    </div>
+</div>
 
 <footer>
-    <p>&copy; 2024 青少年網路成癮網站. 版權所有</p>
+    <p>&copy; 2024 你的品牌名稱. All rights reserved.</p>
 </footer>
 
 </body>
