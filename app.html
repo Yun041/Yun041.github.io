@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>約會 APP</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>歡迎來到約會 APP</h1>
+        <nav>
+            <ul>
+                <li><a href="login.html">登入</a></li>
+                <li><a href="signup.html">註冊</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="intro">
+            <h2>尋找真愛，從這裡開始</h2>
+            <p>在這裡，你可以輕鬆認識來自世界各地的人，讓約會變得簡單且有趣！</p>
+        </section>
+        <section class="features">
+            <h2>APP 功能：</h2>
+            <ul>
+                <li>瀏覽用戶檔案</li>
+                <li>即時聊天</li>
+                <li>智慧推薦配對</li>
+                <li>隱私保護</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 約會 APP. 保留所有權利。</p>
+    </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>註冊 - 約會 APP</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>註冊帳戶</h1>
+        <nav>
+            <ul>
+                <li><a href="login.html">登入</a></li>
+                <li><a href="index.html">返回首頁</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <form action="#" method="POST" class="signup-form">
+            <label for="username">用戶名：</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="email">電子郵件：</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">密碼：</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="confirm-password">確認密碼：</label>
+            <input type="password" id="confirm-password" name="confirm-password" required>
+
+            <button type="submit">註冊</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 約會 APP. 保留所有權利。</p>
+    </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登入 - 約會 APP</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>登入帳戶</h1>
+        <nav>
+            <ul>
+                <li><a href="signup.html">註冊</a></li>
+                <li><a href="index.html">返回首頁</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <form action="#" method="POST" class="login-form">
+            <label for="email">電子郵件：</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">密碼：</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="submit">登入</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 約會 APP. 保留所有權利。</p>
+    </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的資料 - 約會 APP</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>我的個人資料</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">返回首頁</a></li>
+                <li><a href="edit-profile.html">編輯資料</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="profile-info">
+            <h2>用戶資料</h2>
+            <p><strong>用戶名：</strong>小明</p>
+            <p><strong>電子郵件：</strong>xiaoming@example.com</p>
+            <p><strong>年齡：</strong>25</p>
+            <p><strong>性別：</strong>男</p>
+            <p><strong>興趣：</strong>旅行, 攝影, 電影</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 約會 APP. 保留所有權利。</p>
+    </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>編輯資料 - 約會 APP</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>編輯個人資料</h1>
+        <nav>
+            <ul>
+                <li><a href="profile.html">返回我的資料</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <form action="#" method="POST" class="edit-profile-form">
+            <label for="username">用戶名：</label>
+            <input type="text" id="username" name="username" value="小明" required>
+
+            <label for="email">電子郵件：</label>
+            <input type="email" id="email" name="email" value="xiaoming@example.com" required>
+
+            <label for="password">密碼：</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="interests">興趣：</label>
+            <textarea id="interests" name="interests">旅行, 攝影, 電影</textarea>
+
+            <button type="submit">保存變更</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 約會 APP. 保留所有權利。</p>
+    </footer>
+</body>
+</html>
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display:
