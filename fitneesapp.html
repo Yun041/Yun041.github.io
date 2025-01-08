@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>減肥產品創新專案</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- 頁首 -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">首頁</a></li>
+                <li><a href="#products">減肥產品</a></li>
+                <li><a href="#plan">減肥計劃</a></li>
+                <li><a href="#testimonials">用戶推薦</a></li>
+                <li><a href="#contact">聯絡我們</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- 主頁 -->
+    <section id="hero">
+        <div class="hero-content">
+            <h1>迎接全新的健康生活，開啟減肥之旅！</h1>
+            <p>探索我們的創新減肥產品，幫助您達成目標，並且輕鬆管理您的健康計劃。</p>
+            <a href="#products" class="btn-primary">了解更多</a>
+        </div>
+    </section>
+
+    <!-- 減肥產品展示 -->
+    <section id="products">
+        <h2>我們的減肥產品</h2>
+        <div class="product-list">
+            <div class="product-item">
+                <img src="product1.jpg" alt="產品1">
+                <h3>減肥茶</h3>
+                <p>幫助加速新陳代謝，促進脂肪燃燒。</p>
+                <button>購買</button>
+            </div>
+            <div class="product-item">
+                <img src="product2.jpg" alt="產品2">
+                <h3>減肥膠囊</h3>
+                <p>專為減少食慾而設計，有效抑制過度飲食。</p>
+                <button>購買</button>
+            </div>
+            <div class="product-item">
+                <img src="product3.jpg" alt="產品3">
+                <h3>代餐粉</h3>
+                <p>健康、營養的代餐，幫助控制卡路里攝取。</p>
+                <button>購買</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- 減肥計劃 -->
+    <section id="plan">
+        <h2>個性化減肥計劃</h2>
+        <p>我們為您提供量身定制的減肥計劃，幫助您每週達成健康目標。</p>
+        <div class="plan-form">
+            <label for="goal">您的減肥目標：</label>
+            <input type="text" id="goal" placeholder="例如：減掉5公斤">
+            <label for="duration">計劃時間：</label>
+            <input type="number" id="duration" placeholder="例如：3個月">
+            <button>開始計劃</button>
+        </div>
+    </section>
+
+    <!-- 用戶推薦 -->
+    <section id="testimonials">
+        <h2>用戶推薦</h2>
+        <div class="testimonial">
+            <p>"這個減肥茶讓我輕鬆減重10公斤，真的非常有效！"</p>
+            <p>- 張小姐</p>
+        </div>
+        <div class="testimonial">
+            <p>"我用了代餐粉，感覺更有活力，減肥過程不再痛苦。"</p>
+            <p>- 李先生</p>
+        </div>
+    </section>
+
+    <!-- 聯絡我們 -->
+    <section id="contact">
+        <h2>聯絡我們</h2>
+        <form action="submit_contact.php" method="POST">
+            <label for="name">姓名：</label>
+            <input type="text" id="name" required>
+            
+            <label for="email">電子郵件：</label>
+            <input type="email" id="email" required>
+            
+            <label for="message">訊息：</label>
+            <textarea id="message" rows="4" required></textarea>
+            
+            <button type="submit">送出</button>
+        </form>
+    </section>
+
+    <!-- 頁尾 -->
+    <footer>
+        <p>&copy; 2025 減肥產品創新專案。所有權利保留。</p>
+    </footer>
+
+</body>
+</html>
